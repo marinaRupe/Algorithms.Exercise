@@ -11,7 +11,7 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4310b595-2c76-440a-96db-251a15f1ffe1" name="Default" comment="" />
+    <list default="true" id="c6d42201-9e0d-4c9e-a92a-096373ca767e" name="Default" comment="" />
     <ignored path="Knuth-Morris-Pratt Algorithm (KMP).iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +43,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding>
-                <marker date="1489958956682" expanded="true" signature="32:54" ph="{...}" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,17 +134,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4310b595-2c76-440a-96db-251a15f1ffe1" name="Default" comment="" />
-      <created>1489958949372</created>
+      <changelist id="c6d42201-9e0d-4c9e-a92a-096373ca767e" name="Default" comment="" />
+      <created>1489959798315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1489958949372</updated>
-      <workItem from="1489958951109" duration="11000" />
+      <updated>1489959798315</updated>
+      <workItem from="1489959802685" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11000" />
+    <option name="totallyTimeSpent" value="117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -197,11 +195,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <marker date="1489958956682" expanded="true" signature="32:54" ph="{...}" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
