@@ -1,8 +1,8 @@
 #include <iostream>
-#include <math.h>
 
 using namespace std;
 
+int pow (int a, int b);
 bool equal (string str, string substr);
 int naiveSubstringSearch(string str, string substr);
 int rabinKarpSubstringSearch(string str, string substr, int p);
@@ -31,8 +31,8 @@ int rabinKarpSubstringSearch(string str, string substr, int prime) {
     int substrHash = 0;
     int strHash = 0;
     for (int i = 0; i < N; i++) {
-        substrHash += substr[i] * (int)pow(prime, i);
-        strHash += str[i] * (int)pow(prime, i);
+        substrHash += substr[i] * pow(prime, i);
+        strHash += str[i] * pow(prime, i);
     }
 
     for (int i = 0; i <= M - N + 1; i++) {
@@ -40,7 +40,7 @@ int rabinKarpSubstringSearch(string str, string substr, int prime) {
             return i;
         }
         else {
-            strHash = (strHash - str[i]) / prime + str[i + N] * (int)pow(prime, N - 1);
+            strHash = (strHash - str[i]) / prime + str[i + N] * pow(prime, N - 1);
         }
     }
     return -1;
@@ -57,6 +57,14 @@ bool equal (string str, string substr) {
         }
     }
     return flag;
+}
+
+int pow (int a, int b) {
+    int c = 1;
+    for (int i = 0; i < b; i++) {
+        c *= a;
+    }
+    return c;
 }
 
 int naiveSubstringSearch(string str, string substr) {
