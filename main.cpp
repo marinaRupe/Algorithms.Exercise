@@ -11,19 +11,22 @@ int main() {
 }
 
 void testSubstringSearchAlgorithms() {
+    int prime = 3;
+
     string str = "abcdefaaaa";
     string substr = "efa";
-    int prime = 3;
+    string str2 = "abxabcabcaby";
+    string substr2 = "abcaby";
 
     cout << "String: " << str << endl;
     cout << "Substring: " << substr << endl << endl;
 
     cout << "Naive string matching algorithm: " << endl;
-    cout << "\tSubstring found on index " << naiveSubstringSearch(str, substr) << endl;
+    cout << "\tSubstring found on index " << naiveSubstringSearch(str, substr) << endl << endl;
 
     cout << "Rabin-Karp algorithm: " << endl;
-    cout << "\tSubstring found on index " << rabinKarpSubstringSearch(str, substr, prime) << endl;
+    cout << "\tSubstring found on index " << rabinKarpSubstringSearch(str, substr, prime) << endl << endl;
 
     cout << "KMP algorithm: " << endl;
-    cout << "\tSubstring found on index " << KMPsubstringSearch(str, substr) << endl;
+    cout << "\tSubstring found on index " << KMPsubstringSearch(str, substr) << endl << endl;
 }
