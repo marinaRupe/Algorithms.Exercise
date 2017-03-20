@@ -4,25 +4,6 @@ using namespace std;
 
 int pow (int a, int b);
 bool equal (string str, string substr);
-int naiveSubstringSearch(string str, string substr);
-int rabinKarpSubstringSearch(string str, string substr, int p);
-
-int main() {
-    string str = "abcdefaaaa";
-    string substr = "efa";
-    int prime = 3;
-
-    cout << "String: " << str << endl;
-    cout << "Substring: " << substr << endl << endl;
-
-    cout << "Naive string matching algorithm: " << endl;
-    cout << "\tSubstring found on index " << naiveSubstringSearch(str, substr) << endl;
-
-    cout << "Rabin-Karp algorithm: " << endl;
-    cout << "\tSubstring found on index " << rabinKarpSubstringSearch(str, substr, prime) << endl;
-
-    return 0;
-}
 
 int rabinKarpSubstringSearch(string str, string substr, int prime) {
     int M = (int)str.length();
@@ -65,21 +46,4 @@ int pow (int a, int b) {
         c *= a;
     }
     return c;
-}
-
-int naiveSubstringSearch(string str, string substr) {
-    int M = (int)str.length();
-    int N = (int)substr.length();
-
-    for (int i = 0; i < M - N; i++) {
-        bool flag = true;
-        for (int j = 0; j < N; j++) {
-            if (substr[j] != str[i + j]) {
-                flag = false;
-                break;
-            }
-        }
-        if (flag) return i;
-    }
-    return -1;
 }

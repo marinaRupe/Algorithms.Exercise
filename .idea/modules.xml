@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RabinKarpAlgorithm.iml" filepath="$PROJECT_DIR$/.idea/RabinKarpAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithms.Exercise.iml" filepath="$PROJECT_DIR$/.idea/Algorithms.Exercise.iml" />
     </modules>
   </component>
 </project>

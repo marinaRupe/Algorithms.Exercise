@@ -2,6 +2,10 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/substring_searching_algorithms/naive_string_matching_algorithm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substring_searching_algorithms/substring_search_algorithms.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substring_searching_algorithms/kmp_algorithm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substring_searching_algorithms/rabin_karp_algorithm.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
